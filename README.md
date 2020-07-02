@@ -1,6 +1,6 @@
 # selenium_visualization
 
-목적:
+## 목적
 
 selenium을 사용하는데에 있어 내가 원하는 element의 경로를 찾는 과정이 항상 힘들었다.
 
