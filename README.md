@@ -16,3 +16,20 @@ e.g. e.tree() -> 하위 element가 모두 보여짐
 
 이 경로값을 python 코드에 쉽게 넣을 수 있다.
 
+## ToDo
+
+- selenium의 WebElement의 id만으로 선택하기
+- 특정 element에 대한 자식 element 리스트 출력하기
+
+## example
+
+```python
+body = driver.find_element_by_tag_name("body")
+<selenium.webdriver.remote.webelement.WebElement (session="3d8d880fc4bedfbc781afa8b62d094d3", element="80153561-a62f-42a7-acc2-ea5e03c089ec")>
+
+type(body)
+<class 'selenium.webdriver.remote.webelement.WebElement'>
+
+body.id
+'80153561-a62f-42a7-acc2-ea5e03c089ec'
+```
