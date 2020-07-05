@@ -33,3 +33,18 @@ type(body)
 body.id
 '80153561-a62f-42a7-acc2-ea5e03c089ec'
 ```
+
+## useful URLs
+
+- selenium tutorials
+  - https://beomi.github.io/gb-crawling/posts/2017-02-27-HowToMakeWebCrawler-With-Selenium.html
+- selenium xpath
+  - https://wkdtjsgur100.github.io/selenium-xpath/
+- selenium child list
+  - https://stackoverflow.com/questions/24795198/get-all-child-elements
+  - https://sqa.stackexchange.com/questions/33774/selenium-web-driver-how-to-select-child-elements
+- Dohyun's selenium sample codes
+  - https://github.com/kimdo331/melon2vibe/blob/master/melonCrawl.py
+  - https://github.com/kimdo331/melon2vibe/blob/master/vibeAdd.py
+
+
