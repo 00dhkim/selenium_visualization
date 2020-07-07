@@ -48,6 +48,7 @@ body.id
   - https://stackoverflow.com/questions/24795198/get-all-child-elements
   - https://sqa.stackexchange.com/questions/33774/selenium-web-driver-how-to-select-child-elements
 - Dohyun's selenium sample codes
+  - https://github.com/kimdo331/mini-code/blob/master/source_code/selenium_example.py
   - https://github.com/kimdo331/melon2vibe/blob/master/melonCrawl.py
   - https://github.com/kimdo331/melon2vibe/blob/master/vibeAdd.py
 - selenium Docs
