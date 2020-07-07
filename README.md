@@ -1,5 +1,8 @@
 # selenium_visualization
 
+summary notion link:  
+https://www.notion.so/SW-0543f52cc8c14e11941ec8f69ab0c6dc
+
 ## 목적
 
 selenium을 사용하는데에 있어 내가 원하는 element의 경로를 찾는 과정이 항상 힘들었다.
