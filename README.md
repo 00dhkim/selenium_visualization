@@ -23,6 +23,7 @@ e.g. e.tree() -> 하위 element가 모두 보여짐
 
 - selenium의 WebElement의 id만으로 선택하기
 - 특정 element에 대한 자식 element 리스트 출력하기
+- 기존의 패키지에 추가할지, 새로운 패키지를 만들지 결정하기
 
 ## example
 
