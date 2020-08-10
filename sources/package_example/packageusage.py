@@ -1,4 +1,4 @@
-import package_example
+import selenium_visualization
 
-package_example.tree()
-package_example.find()
+selenium_visualization.tree()
+selenium_visualization.find()
