@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 
-driver = webdriver.Chrome("chromedriver.exe")
+driver = webdriver.Chrome("chromedriver_83.exe")
 
 
 driver.get("http://lms.knu.ac.kr")
