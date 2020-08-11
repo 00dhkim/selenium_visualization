@@ -4,14 +4,18 @@ from selenium import webdriver
 element_list = []
 idx = 0
 
-def tree2(node, depth, max_depth):
+def tree2(node, depth, max_depth, show_text):
     global element_list
     global idx
-
-    if depth != -1 and depth > max_depth:
+    
+    if max_depth != -1 and depth > max_depth:
         return
     
-    print('-'*depth,' [',idx,'] ', node.tag_name, sep='')
+    print(' '*depth*2,'',node.tag_name, '[',idx,'] ', sep='', end='')
+    if show_text:
+        print(repr(node.text[:20]),sep='', end='')
+    print()
+    
     element_list.append(node)
     idx += 1
     
@@ -19,15 +23,15 @@ def tree2(node, depth, max_depth):
     if not sub_nodes:
         return
     for nd in sub_nodes:
-        tree2(nd, depth+1, max_depth)
+        tree2(nd, depth+1, max_depth, show_text)
 
-def tree(node, max_depth = -1):
+def tree(node, max_depth = -1, show_text = False):
     global element_list
     global idx
     element_list = []
     idx = 0
     
-    tree2(node, 0, max_depth)
+    tree2(node, 0, max_depth, show_text)
 
 def select_node(idx):
     return element_list[idx]
@@ -54,4 +58,4 @@ print(logo.get_attribute("style"))
 
 mbox = driver.find_element_by_xpath("//div[@class='m-box2']")
 
-tree(mbox, max_depth = 2)
+# tree(mbox, max_depth = 2, show_text = True)
