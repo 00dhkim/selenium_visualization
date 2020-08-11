@@ -20,10 +20,7 @@ def tree2(node, depth, max_depth, show_text):
     element_list.append(node)
     idx += 1
 
-    print('c1')
-
     sub_nodes = node.find_elements_by_xpath("child::*")
-    print('c2')
     if not sub_nodes:
         return
     for nd in sub_nodes:

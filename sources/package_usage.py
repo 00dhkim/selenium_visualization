@@ -1,10 +1,12 @@
 from selenium import webdriver
 import time
-import selenium_visualization
+import selenium_visualization as sele_vis
 
-driver_path = '/home/skeep194/selenium_visualization/sources/chromedriver'
+driver_path = 'chromedriver_83.exe'
 if __name__ == '__main__':
     driver = webdriver.Chrome(driver_path)
     driver.get("http://lms.knu.ac.kr")
     mbox = driver.find_element_by_xpath("//div[@class='m-box2']")
-    selenium_visualization.tree(mbox, max_depth=2, show_text=True)
+    sele_vis.tree(mbox, max_depth=2, show_text=True)
+    selected_node = sele_vis.select_node(6)
+    print(selected_node.text)
