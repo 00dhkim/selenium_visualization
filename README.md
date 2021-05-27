@@ -1,7 +1,9 @@
 # selenium_visualization
 
-summary notion link:  
-https://www.notion.so/SW-0543f52cc8c14e11941ec8f69ab0c6dc
+> Selenium Python 모듈은 Selenium WebDriver를 제어하는 API를 제공한다. Selenium으로 웹페이지와 상호작용하기 위해서는 웹페이지의 HTML상의 element를 선택하는 과정이 필요한데, 해당 과정은 여러 번의 시행착오를 통해 내가 찾고 싶은 element의 경로를 찾을 수 있다. 해당 과정은 반복적이고 불필요하며, 파일 디렉토리에서 cd와 ls를 여러 번 반복하는 것과 유사하다.
+> 
+> 이러한 문제점을 해결하고자, 파일 관리자에서 디렉토리와 파일들을 트리 형태로 나타내는 것처럼 Selenium의 element들을 트리 형태로 시각화하는 프로젝트를 실행하게 되었다.
+
 
 Demo link:  
 https://youtu.be/WxnLk0PqI40
